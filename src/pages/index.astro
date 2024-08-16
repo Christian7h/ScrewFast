@@ -1,4 +1,5 @@
 ---
+//src/pages/index.astro
 // Import the necessary components
 import MainLayout from "@/layouts/MainLayout.astro";
 import HeroSection from "@components/sections/landing/HeroSection.astro";
@@ -10,13 +11,13 @@ import TestimonialsSection from "@components/sections/testimonials/TestimonialsS
 import PricingSection from "@components/sections/pricing/PricingSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
-import heroImage from "@images/hero-image.avif";
+import heroImage from "@images/hero-image.webp";
 import faqs from "@data/faqs.json";
 import features from "@data/features.json";
 import pricing from "@data/pricing.json";
-import featureImage from "@images/features-image.avif";
+import featureImage from "@images/feature-image.webp";
 import construction from "@images/construction-image.avif";
-import tools from "@images/automated-tools.avif";
+import tools from "@images/automated-tools.webp";
 import dashboard from "@images/dashboard-image.avif";
 
 const avatarSrcs: Array<string> = [
@@ -35,111 +36,112 @@ const avatarSrcs: Array<string> = [
   />
 
   <HeroSection
-    title=`Equip Your Projects with <span
-        class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>`
-    subTitle="Top-quality hardware tools and expert construction services for every project need."
-    primaryBtn="Start Exploring"
+    title=`Disfruta del Sol y la Piscina con <span
+        class="text-skyBlue-500 dark:text-skyBlue-400">Sunsummer</span>`
+    subTitle="Descubre equipos de piscina de alta calidad y servicios para tu disfrute máximo del verano."
+    primaryBtn="Explorar"
     primaryBtnURL="/products"
-    secondaryBtn="Contact Sales Team"
+    secondaryBtn="Contáctanos"
     secondaryBtnURL="/contact"
     withReview={true}
     avatars={avatarSrcs}
-    rating=`<span class="font-bold">4.8</span> / 5`
+    rating=`<span class="font-bold">4.  8</span> / 5`
     starCount={4}
-    reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
+    reviews=`Más de<span class="font-bold">12.8k</span> Opiniones`
     src={heroImage}
-    alt="Stack of ScrewFast product boxes containing assorted hardware tools"
+    alt="Equipos y accesorios de piscina de Sunsummer"
   />
 
   <ClientsSection
-    title="Trusted by Industry Leaders"
-    subTitle="Experience the reliability chosen by industry giants."
+    title="Confianza de Propietarios de Piscinas"
+    subTitle="Experimenta la confiabilidad elegida por propietarios de piscinas en toda la región."
   />
 
   <FeaturesGeneral
-    title="Meeting Industry Demands"
-    subTitle="At ScrewFast, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."
+    title="Mejora Tu Experiencia en la Piscina"
+    subTitle="En Sunsummer, ofrecemos todo lo que necesitas para crear el oasis perfecto junto a la piscina. Desde herramientas de piscina de vanguardia hasta servicios de mantenimiento expertos, estamos dedicados a hacer inolvidable tu verano."
     src={featureImage}
-    alt="ScrewFast products in floating boxes"
+    alt="Productos y accesorios de piscina de Sunsummer "
     features={features}
   />
 
   <FeaturesNavs
-    title=`Customize <span class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>'s offerings to perfectly suit your hardware and construction needs.`
-    tabs={[
-      {
-        heading: "Cutting-Edge Tools",
-        content:
-          "Empower your projects with ScrewFast's cutting-edge tools. Experience enhanced efficiency in construction management with our sophisticated automated solutions.",
-        svg: "tools",
-        src: tools,
-        alt: "Yellow and black heavy equipment on brown grass field",
-        first: true,
-      },
-      {
-        heading: "Intuitive Dashboards",
-        content:
-          "Navigate with ease using ScrewFast's intuitive dashboards. Set up and oversee your projects seamlessly, with user-friendly interfaces designed for quick and effective workflow management.",
-        svg: "dashboard",
-        src: dashboard,
-        alt: "A screenshot or graphic representation of the intuitive dashboard",
-        second: true,
-      },
-      {
-        heading: "Robust Features",
-        content:
-          "Minimize complexity, maximize productivity. ScrewFast's robust features are engineered to streamline your construction process, delivering results that stand out for their excellence.",
-        svg: "house",
-        src: construction,
-        alt: "Gray metal building frame near tower crane during daytime",
-      },
-    ]}
-  />
+  title=`Personaliza las <span class="text-skyBlue-500 dark:text-skyBlue-400">ofertas de Sunsummer</span> para satisfacer perfectamente tus necesidades de piscina.`
+  tabs={[
+    {
+      heading: "Equipos de Última Generación",
+      content:
+        "Potencia tus proyectos con los equipos de última generación de Sunsummer. Experimenta una eficiencia mejorada en el manejo de piscinas con nuestras soluciones automatizadas sofisticadas.",
+      svg: "tools",
+      src: tools,
+      alt: "Equipos amarillos y negros sobre campo de césped marrón",
+      first: true,
+    },
+    {
+      heading: "Paneles Intuitivos",
+      content:
+        "Navega con facilidad utilizando los paneles intuitivos de Sunsummer. Configura y supervisa tus proyectos de manera eficiente, con interfaces diseñadas para una gestión de flujo de trabajo rápida y efectiva.",
+      svg: "dashboard",
+      src: dashboard,
+      alt: "Captura de pantalla o representación gráfica del panel intuitivo",
+      second: true,
+    },
+    {
+      heading: "Funcionalidades Robustas",
+      content:
+        "Minimiza la complejidad, maximiza la productividad. Las funcionalidades robustas de Sunsummer están diseñadas para optimizar tu experiencia con piscinas, ofreciendo resultados que destacan por su excelencia.",
+      svg: "house",
+      src: construction,
+      alt: "Estructura metálica gris cerca de una grúa torre durante el día",
+    },
+  ]}
+/>
 
   <TestimonialsSection
-    title="Fast-Track Your Projects"
-    subTitle="At ScrewFast, we ensure a swift start with instant account setup. Experience the speed of construction redefined."
-    ;
-    testimonials={[
-      {
-        content:
-          "ScrewFast dramatically boosted our project efficiency. Setup was instant, and their rapid response times are phenomenal. Truly a game-changer in hardware and construction support!",
-        author: "Samantha Ruiz",
-        role: "Chief Operating Officer | ConstructIt Inc.",
-        avatarSrc:
-          "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?q=80&w=1453&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
-      },
-    ]}
-    statistics={[
-      {
-        count: "70k+",
-        description:
-          "customers equipped — from DIY to major construction firms",
-      },
-      {
-        count: "35%",
-        description:
-          "uptick in project efficiency with ScrewFast tools and services",
-      },
-      {
-        count: "15.3%",
-        description:
-          "reduction in maintenance costs reported by long-term clients",
-      },
-      {
-        count: "2x",
-        description: "quicker assembly using innovative fastening solutions",
-      },
-    ]}
-  />
+  title="Opiniones de Clientes"
+  subTitle="Descubre por qué nuestros clientes aman Sunsummer."
+  testimonials={[
+    {
+      content:
+        "Los equipos de piscina de Sunsummer han transformado nuestro patio en un paraíso. La calidad y durabilidad son incomparables, y el servicio al cliente es excepcional.",
+      author: "Juan Pérez",
+      role: "Propietario de Piscina",
+      avatarSrc:
+        "https://randomuser.me/api/portraits/men/32.jpg",
+    },
+  ]}
+  statistics={[
+    {
+      count: "20 mil+",
+      description:
+        "propietarios de piscinas satisfechos",
+    },
+    {
+      count: "95%",
+      description:
+        "índice de satisfacción del cliente",
+    },
+    {
+      count: "50%",
+      description:
+        "aumento en la eficiencia de la piscina con herramientas y servicios de Sunsummer",
+    },
+    {
+      count: "3x",
+      description: "montaje más rápido con soluciones innovadoras para piscinas",
+    },
+  ]}
+/>
 
   <PricingSection pricing={pricing} />
 
-  <FAQ title="Frequently<br />asked questions" faqs={faqs} />
+  <FAQ title="Preguntas Frecuentes sobre Nuestras Piscinas" faqs={faqs} />
 
   <HeroSectionAlt
-    title="Let's Build Together"
-    subTitle="ScrewFast is an open-source template, meticulously crafted with Astro, Tailwind CSS, and Preline UI frameworks."
-    url="https://github.com/mearashadowfax/ScrewFast"
+    title="Construyamos Juntos Tu Piscina Ideal"
+    subTitle="Sunsummer te ofrece piscinas personalizadas de calidad, diseñadas para transformar tu espacio exterior en un oasis de relajación."
+    url="https://www.sunsummer.cl/contacto"
   />
+
 </MainLayout>
+

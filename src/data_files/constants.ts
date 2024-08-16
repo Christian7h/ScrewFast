@@ -1,13 +1,14 @@
 import ogImageSrc from "@images/social.png";
 
 export const SITE = {
-  title: "ScrewFast",
-  tagline: "Top-quality Hardware Tools",
-  description: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
+  title: "SunSummer",
+  tagline: "Construcción Profesional de Piscinas",
+  description: "SunSummer ofrece servicios profesionales de construcción de piscinas personalizadas y de calidad para transformar tu espacio exterior. Explora nuestras opciones y contacta a nuestro equipo para obtener la mejor calidad y confiabilidad.",
+  description_short: "SunSummer ofrece servicios profesionales de construcción de piscinas personalizadas y de calidad para transformar tu espacio exterior.",
   url: "https://screwfast.uk",
-  author: "Emil Gulamov",
+  author: "Emil Gulamov/Nombre del equipo de SunSummer",
 };
+
 
 export const SEO = {
   title: SITE.title,
@@ -30,10 +31,10 @@ export const SEO = {
 };
 
 export const OG = {
-  locale: "en_US",
+  locale: "es_CL",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}: : Hardware Tools & Construction Services`,
-  description: "Equip your projects with ScrewFast's top-quality hardware tools and expert construction services. Trusted by industry leaders, ScrewFast offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
+  title: `${SITE.title}: : Construcción Profesional de Piscinas`,
+  description: "Transforma tu espacio exterior con las piscinas personalizadas y de calidad de SunSummer. Descubre nuestros servicios de construcción experta, confiables y adaptados a tus necesidades. Comienza tu proyecto hoy mismo y disfruta de la diferencia con diseño centrado en el usuario y herramientas de vanguardia.",
   image: ogImageSrc,
 };

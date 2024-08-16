@@ -1,29 +1,30 @@
 {
-  "subTitle": "Ask us anything about our brand and products, and get factual responses.",
+  "subTitle": "Pregúntanos todo sobre nuestras piscinas y servicios, y obtén respuestas precisas.",
+
   "faqs": [
     {
-      "question": "What types of tools are included in the Starter Kit?",
-      "answer": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks."
+      "question": "¿Qué tipos de piscinas construyen?",
+      "answer": "Construimos una variedad de piscinas personalizadas, desde piscinas estándar para espacios pequeños hasta piscinas premium con características como iluminación LED y jacuzzi integrado. Adaptamos el diseño a tus necesidades y preferencias."
     },
     {
-      "question": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
-      "answer": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support, and receive exclusive content. Contact our support team for a seamless transition."
+      "question": "¿Cuáles son los pasos del proceso de construcción?",
+      "answer": "Nuestro proceso incluye una consulta inicial para discutir tus ideas y requisitos, diseño personalizado de la piscina, obtención de permisos necesarios, excavación y construcción, instalación de sistemas de filtración y acabados finales."
     },
     {
-      "question": "What discounts are available for bulk orders through the Professional Toolbox plan?",
-      "answer": "Professional Toolbox members are entitled to exclusive discounts on bulk orders, the percentage of which may vary depending on the order volume. Get in touch with us to discuss your needs, and we'll provide a tailored discount structure."
+      "question": "¿Ofrecen garantía en las piscinas construidas?",
+      "answer": "Sí, todas nuestras piscinas vienen con una garantía que cubre defectos de fabricación y problemas estructurales. La duración y términos específicos de la garantía varían según el tipo de piscina y materiales utilizados."
     },
     {
-      "question": "What kind of customer support can I expect?",
-      "answer": "All our customers receive dedicated email support. With the Starter Kit, you'll receive our standard support, while the Professional Toolbox plan upgrades you to priority support, meaning faster response times and specialized assistance."
+      "question": "¿Qué tipo de mantenimiento requiere una piscina construida por ustedes?",
+      "answer": "Recomendamos un mantenimiento regular que incluya limpieza del filtro, tratamiento del agua, y revisión de la bomba y otros equipos. También ofrecemos servicios de mantenimiento programado para mantener tu piscina en óptimas condiciones."
     },
     {
-      "question": "How current are the online resources and tutorials?",
-      "answer": "We regularly update our online resources and tutorials to reflect the latest trends in DIY and construction, as well as introductions to new tools and techniques. Our material aims to be comprehensive and user-friendly for all skill levels."
+      "question": "¿Cómo manejan los cambios de diseño o características durante el proceso de construcción?",
+      "answer": "Entendemos que pueden surgir cambios durante la construcción. Estamos preparados para ajustar el diseño y características según tus preferencias, siempre que sea factible y no afecte significativamente el progreso del proyecto."
     },
     {
-      "question": "Does ScrewFast offer services for large-scale construction projects?",
-      "answer": "Yes, our Enterprise Solutions are designed for larger companies requiring comprehensive services. We provide consultation, planning, and supply of high-grade tools and materials, as well as staffing solutions for substantial construction needs. Contact us for a customized quote."
+      "question": "¿Qué opciones tienen para personalizar el área alrededor de la piscina?",
+      "answer": "Ofrecemos una variedad de opciones de paisajismo y diseño de áreas circundantes, como terrazas, decks, jardines y iluminación exterior. Trabajamos contigo para crear un espacio exterior que complemente y mejore tu piscina."
     }
   ]
 }

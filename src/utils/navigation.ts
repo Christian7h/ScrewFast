@@ -1,25 +1,25 @@
 // An array of links for navigation bar
 const navBarLinks = [
-  { name: "Home", url: "/" },
-  { name: "Products", url: "/products" },
-  { name: "Services", url: "/services" },
+  { name: "Inicio", url: "/" },
+  { name: "Productos", url: "/products" },
+  { name: "Servicios", url: "/services" },
   { name: "Blog", url: "/blog" },
-  { name: "Contact", url: "/contact" },
+  { name: "Contacto", url: "/contact" },
 ];
 // An array of links for footer
 const footerLinks = [
   {
     section: "Ecosystem",
     links: [
-      { name: "Documentation", url: "/welcome-to-docs/" },
+      { name: "Documentacion", url: "/welcome-to-docs/" },
       { name: "Tools & Equipment", url: "/products" },
-      { name: "Construction Services", url: "/services" },
+      { name: "Construcción Servicios", url: "/services" },
     ],
   },
   {
-    section: "Company",
+    section: "Compañia",
     links: [
-      { name: "About us", url: "#" },
+      { name: "Acerda de", url: "#" },
       { name: "Blog", url: "/blog" },
       { name: "Careers", url: "#" },
       { name: "Customers", url: "#" },
